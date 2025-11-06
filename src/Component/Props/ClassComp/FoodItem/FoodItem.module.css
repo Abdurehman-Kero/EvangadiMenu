@@ -68,7 +68,13 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
+.link{
+  margin-inline:  auto;
+  width: 95px;
+  padding: 5px;
+  /* background-color: #ff9500; */
+  border-radius: 10px;
+}
 @media (max-width: 768px) {
   .foods-container {
     max-width: 440px;
